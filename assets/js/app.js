@@ -8,31 +8,37 @@ import '../css/app.css';
 import Grid from "@material-ui/core/Grid";
 import {makeStyles} from "@material-ui/styles";
 import NavBar from "./components/NavBar/NavBar";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Container from "@material-ui/core/Container";
+/*import Acceuil from 'components/Pages/Accueil';*/
+import Accueil from "./components/Pages/Accueil/Accueil";
+import Apropos from "./components/Pages/Apropos/Apropos";
 
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
     },
-    paper: {
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    },
+    marginTop: {
+      marginTop: '8%'
+    }
 }));
 
 export default function App() {
     const classes = useStyles();
     return (
-        <div className={classes.root}>
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
-                    <NavBar/>
-                </Grid>
 
+        <Container className={classes.root}>
+            <NavBar/>
+
+            <Grid className={classes.marginTop} item xs={12}>
+                <Router>
+                    <Route exact path="/a-propos" component={Apropos}/>
+                    <Route exact path="/" component={Accueil}/>
+                </Router>
             </Grid>
-        </div>
 
+        </Container>
 
     );
 };
