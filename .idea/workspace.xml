@@ -24,30 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7165cd0-f933-48d6-97a5-2c483a9e7f52" name="Default Changelist" comment="Add Router-dom + Navbar adjustment">
-      <change afterPath="$PROJECT_DIR$/assets/css/boostrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Routing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/Dharma Type Font License.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/images/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/js/modernizr.custom.86080.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/images/Conductor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/images/images.css" afterDir="false" />
+    <list default="true" id="c7165cd0-f933-48d6-97a5-2c483a9e7f52" name="Default Changelist" comment="Factorisation Router-dom for/with Material-UI + Navbar adjustment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/NavBar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/NavBar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/themes/DefaultThemeProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/themes/DefaultThemeProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Routing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +196,7 @@
       <updated>1600179212427</updated>
       <workItem from="1600179213481" duration="5409000" />
       <workItem from="1600188663749" duration="3316000" />
-      <workItem from="1600244951540" duration="46665000" />
+      <workItem from="1600244951540" duration="47351000" />
     </task>
     <task id="LOCAL-00001" summary="Install Symfo 4+ React (Last)">
       <created>1600180506881</created>
@@ -246,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600275779882</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Factorisation Router-dom for/with Material-UI + Navbar adjustment">
+      <created>1600361412045</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600361412045</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +256,8 @@
     <MESSAGE value="Styles adjustment - Ui Material  step1 (ui-materials/dark theme)" />
     <MESSAGE value="Styles adjustment - Ui Material  step2 (NavBar)" />
     <MESSAGE value="Add Router-dom + Navbar adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Router-dom + Navbar adjustment" />
+    <MESSAGE value="Factorisation Router-dom for/with Material-UI + Navbar adjustment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factorisation Router-dom for/with Material-UI + Navbar adjustment" />
   </component>
   <component name="WindowStateProjectService">
     <state width="2085" height="388" key="GridCell.Tab.0.bottom" timestamp="1600338025523">
@@ -292,11 +280,12 @@
     </state>
     <state width="2085" height="388" key="GridCell.Tab.0.right/0.23.1680.972/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600338025523" />
     <state width="1817" height="408" key="GridCell.Tab.0.right/0.23.1680.973/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600179632902" />
-    <state x="4129" y="188" key="Vcs.Push.Dialog.v2" timestamp="1600275782595">
+    <state x="4129" y="188" key="Vcs.Push.Dialog.v2" timestamp="1600361413860">
       <screen x="3600" y="-259" width="3440" height="1417" />
     </state>
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.967/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600275782595" />
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.973/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600180509027" />
+    <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.975/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600361413860" />
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.976/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600189685316" />
     <state x="4364" y="52" width="598" height="735" key="find.popup" timestamp="1600329827011">
       <screen x="3600" y="-259" width="3440" height="1417" />
