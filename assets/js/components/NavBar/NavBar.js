@@ -6,7 +6,6 @@ import {
     Button,
     Drawer,
     IconButton,
-    Link,
     List,
     ListItem,
     ListItemIcon,
@@ -14,7 +13,7 @@ import {
     makeStyles,
     Toolbar,
 } from '@material-ui/core';
-import {List as ListIcon, Menu as MenuIcon} from '@material-ui/icons';
+import {Menu as MenuIcon} from '@material-ui/icons';
 import AccountBoxIcon from '@material-ui/icons/SentimentVerySatisfied';
 import BuildIcon from '@material-ui/icons/Build';
 import ImportantDevicesIcon from '@material-ui/icons/ImportantDevices';
@@ -23,14 +22,19 @@ import ContactPhoneIcon from '@material-ui/icons/ContactPhone';
 import Divider from "@material-ui/core/Divider";
 import Avatar from "@material-ui/core/Avatar";
 import HomeIcon from '@material-ui/icons/Home';
+import {Link} from "react-router-dom";
+import {HomeRoute, Propos} from "../Routing";
+import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
 
 const useStyles = makeStyles(style => ({
-    menuIcon: {marginRight: style.spacing(2)},
+    menuIcon: {marginRight: style.spacing(0)},
     list: {width: '210px', height: '30px'},
     menu: {marginLeft: '30px'},
-    align: { marginLeft: "12px" },
+    align: {marginLeft: "12px"},
     top: {marginTop: '27.3%'},
-    color: {color:"white"}
+    color: {color: "white"},
+
+
 }))
 
 const NavBar = () => {
@@ -43,29 +47,26 @@ const NavBar = () => {
         setDrawerOpen(!drawerOpen)
     };
 
-    const draweritems = [
-        {text: 'ACCUEIL', icon: <ListIcon fontSize="small"/>},
-        {text: 'A PROPOS', icon: <AccountBoxIcon fontSize="small"/>},
-        {text: 'SERVICES', icon: <BuildIcon fontSize="small"/>},
-        {text: 'PORTOFOLIO', icon: <ImportantDevicesIcon fontSize="small"/>},
-        {text: 'CLIENTS', icon: <ThumbUpAltIcon fontSize="small"/>},
-        {text: 'CONTACT', icon: <ContactPhoneIcon fontSize="small"/>}
-    ];
-
     return (
-        <AppBar position="fixed">
+        <AppBar position="fixed" className='adjust'>
             <Toolbar>
-                <IconButton onClick={toogleDrawer}
-                            className={classes.menuIcon}
-                            edge="start"><MenuIcon/></IconButton>
-                <Link to="/" underline="none" color="inherit" variant="h6">EUPHONY</Link>
+
+                <IconButton onClick={toogleDrawer} className={classes.menuIcon}
+                            edge="start">
+                    <MenuIcon/>
+                </IconButton>
+                <KeyboardBackspaceIcon className='arrow'/> &nbsp;Menu
+                <Link to="/" underline="none" color="inherit" variant="h6">
+                </Link>
                 <Box flexGrow={1}/>
                 <Button size="large">Login</Button>
                 <Drawer anchor="left" variant="temporary" onClose={toogleDrawer} open={drawerOpen}>
                     <List className={classes.list} component="nav" aria-label="main mailbox folders">
                         {/*--------------------------------------------------------------------------------*/}
                         <Divider className={classes.top}/>
-                        <ListItem button to="/" onClick={toogleDrawer}>
+
+                        <ListItem button component={Link} to={HomeRoute}
+                                  onClick={toogleDrawer}>
                             <ListItemIcon>
                                 <Avatar>
                                     <HomeIcon className={classes.color}/>
@@ -74,8 +75,9 @@ const NavBar = () => {
                             <ListItemText className={classes.align} primary="ACCUEIL"/>
                         </ListItem>
                         <Divider/>
+
                         {/*--------------------------------------------------------------------------------*/}
-                        <ListItem button to="/" onClick={toogleDrawer}>
+                        <ListItem component={Link} to={Propos} onClick={toogleDrawer}>
                             <ListItemIcon>
                                 <Avatar>
                                     <AccountBoxIcon className={classes.color}/>

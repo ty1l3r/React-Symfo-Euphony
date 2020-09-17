@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './Accueil.css';
+import CarouselHome from "../../Styles/Carousel/Carousel";
+import '../../../../css/boostrap.min.css';
 
 const Accueil = () => {
     return (
-        <div>
-            <h1 className="center">ACCEUIL</h1>
-        </div>
+
+<Fragment>
+        <CarouselHome/>
+</Fragment>
+
+
+
     );
 };
 

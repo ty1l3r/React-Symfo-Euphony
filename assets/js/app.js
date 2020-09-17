@@ -5,40 +5,29 @@ import DefaultThemeProvider from "./components/themes/DefaultThemeProvider";
 import CssBaseline from "@material-ui/core/CssBaseline";
 /*import 'bootstrap/dist/css/bootstrap.min.css';*/
 import '../css/app.css';
-import Grid from "@material-ui/core/Grid";
 import {makeStyles} from "@material-ui/styles";
-import NavBar from "./components/NavBar/NavBar";
-import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Container from "@material-ui/core/Container";
+import {BrowserRouter as Router} from 'react-router-dom';
 /*import Acceuil from 'components/Pages/Accueil';*/
-import Accueil from "./components/Pages/Accueil/Accueil";
-import Apropos from "./components/Pages/Apropos/Apropos";
+import '../css/boostrap.min.css';
+import Routing from "./components/Routing";
 
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    marginTop: {
-      marginTop: '8%'
-    }
-}));
+const useStyles = makeStyles(theme => ({
+    divider: theme.mixins.toolbar,
+}))
+
+export const HomeRoute = "/";
+export const Propos = '/a-propos'
 
 export default function App() {
+
     const classes = useStyles();
+
     return (
-
-        <Container className={classes.root}>
-            <NavBar/>
-
-            <Grid className={classes.marginTop} item xs={12}>
-                <Router>
-                    <Route exact path="/a-propos" component={Apropos}/>
-                    <Route exact path="/" component={Accueil}/>
-                </Router>
-            </Grid>
-
-        </Container>
+        <div>
+            <div className={classes.divider}/>
+            <Router><Routing/></Router>
+        </div>
 
     );
 };
