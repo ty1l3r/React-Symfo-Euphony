@@ -4,10 +4,11 @@ import Container from "@material-ui/core/Container";
 import Button from "@material-ui/core/Button";
 import CvAPropos from "./CvAPropos";
 import CvExperience from "./CvExperience";
+import CvEducation from "./CvEducation";
 
 const Cv = () => {
 
-    const [myState, setMyState] = useState('experience')
+    const [myState, setMyState] = useState('education')
     const goAbout = () => {
         setMyState('about')
     };
@@ -100,6 +101,7 @@ const Cv = () => {
                 <div className="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-xs-12 padContent">
                     {myState === 'about' ? <CvAPropos/> : <></>}
                     {myState === 'experience' ? <CvExperience/> : <></>}
+                    {myState === 'education' ? <CvEducation/> : <></>}
                 </div>
             </div>
         </Container>
