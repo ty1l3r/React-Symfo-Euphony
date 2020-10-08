@@ -24,47 +24,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7165cd0-f933-48d6-97a5-2c483a9e7f52" name="Default Changelist" comment="Add HashRouter">
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Particules/Particules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Particules/particules.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Bio/Bio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/Cv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvAPropos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvExperience.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/cv.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Euphony.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Steper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/scriptcv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/telEuphony.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/queries.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/images/EUPHONY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/images/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/images/eupohonylogo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/euphony-r-s.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/euphony-r-s.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="c7165cd0-f933-48d6-97a5-2c483a9e7f52" name="Default Changelist" comment="Add contents in CV">
+      <change afterPath="$PROJECT_DIR$/assets/js/images/fcpic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/boostrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/boostrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/NavBar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/NavBar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/NavBar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/NavBar/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Accueil/Accueil.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Apropos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/Routing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts/BebasNeue-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/js/modernizr.custom.86080.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Styles/Carousel/js/modernizr.custom.86080.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/themes/DefaultThemeProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/themes/DefaultThemeProvider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/images/Conductor.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/images/Conductor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/Cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvAPropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvAPropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvExperience.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/CvExperience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv/cv.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,25 +166,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos" />
-      <recent name="$PROJECT_DIR$/assets/js/images" />
-      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/js" />
-      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/images" />
-      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Cv" />
       <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos/Bio" />
       <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos" />
       <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos/CV" />
       <recent name="$PROJECT_DIR$/assets/js/Jquery" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/js/images" />
+      <recent name="$PROJECT_DIR$/assets/js/components/Pages/Apropos" />
+      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/js" />
+      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/images" />
+      <recent name="$PROJECT_DIR$/assets/js/components/Styles/Carousel/css/fonts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -242,7 +208,7 @@
       <workItem from="1601383979372" duration="8850000" />
       <workItem from="1601535985193" duration="35466000" />
       <workItem from="1601818857364" duration="826000" />
-      <workItem from="1602063979021" duration="15364000" />
+      <workItem from="1602063979021" duration="22584000" />
     </task>
     <task id="LOCAL-00001" summary="Install Symfo 4+ React (Last)">
       <created>1600180506881</created>
@@ -279,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600361412045</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add contents in CV">
+      <created>1602153947132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602153947133</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +276,8 @@
     <MESSAGE value="Styles adjustment - Ui Material  step2 (NavBar)" />
     <MESSAGE value="Add Router-dom + Navbar adjustment" />
     <MESSAGE value="Factorisation Router-dom for/with Material-UI + Navbar adjustment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factorisation Router-dom for/with Material-UI + Navbar adjustment" />
+    <MESSAGE value="Add contents in CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contents in CV" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-2086" y="-293" key="#Inspections" timestamp="1601537560133">
@@ -342,9 +316,10 @@
       <screen x="3600" y="-259" width="3440" height="1417" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.976/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600375934528" />
-    <state x="4129" y="188" key="Vcs.Push.Dialog.v2" timestamp="1600362312570">
-      <screen x="3600" y="-259" width="3440" height="1417" />
+    <state x="-1713" y="-329" key="Vcs.Push.Dialog.v2" timestamp="1602153953507">
+      <screen x="-3440" y="-687" width="3440" height="1350" />
     </state>
+    <state x="-1713" y="-329" key="Vcs.Push.Dialog.v2/0.23.1680.1027/0.-1057.1920.1057/-3440.-687.3440.1350@-3440.-687.3440.1350" timestamp="1602153953507" />
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.967/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600275782595" />
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.973/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600180509027" />
     <state x="4129" y="188" key="Vcs.Push.Dialog.v2/0.23.1680.975/1680.-106.1920.1057/3600.-259.3440.1417@3600.-259.3440.1417" timestamp="1600361413860" />

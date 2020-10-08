@@ -7,7 +7,7 @@ import CvExperience from "./CvExperience";
 
 const Cv = () => {
 
-    const [myState, setMyState] = useState('about')
+    const [myState, setMyState] = useState('experience')
     const goAbout = () => {
         setMyState('about')
     };

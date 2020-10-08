@@ -14,15 +14,36 @@
     font-size: 55px;
 
 }
+.myLink{
+    color: #62d4e4;
+}
 
 .iconeMr {
     margin-right: 10px;
+}
+.iconeWeb {
+    font-size: 10px;
 }
 
 .titleCv {
     font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
+}
+.fontTitle {
+    font-size: 30px !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.fontDate {
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-top: 12px;
+}
+.subtitleCv{
+    margin-top: -26px;
+    font-size: 20px;
+    color: #62d4e4;
 }
 
 .buttonWidth {

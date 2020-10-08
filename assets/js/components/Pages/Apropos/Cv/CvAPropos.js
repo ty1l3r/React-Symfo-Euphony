@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import Avatar from "@material-ui/core/Avatar";
-import Logo from "../../../../images/eupohonylogo.jpg";
+import Logo from "../../../../images/fcpic.jpg";
 import Divider from "@material-ui/core/Divider";
 import {makeStyles} from "@material-ui/core/styles";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
