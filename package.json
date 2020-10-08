@@ -3,7 +3,7 @@
         "@babel/plugin-proposal-class-properties": "^7.10.4",
         "@babel/preset-react": "^7.10.4",
         "@symfony/webpack-encore": "^0.30.0",
-        "core-js": "^3.0.0",
+        "core-js": "^3.6.5",
         "regenerator-runtime": "^0.13.2",
         "webpack-notifier": "^1.6.0"
     },
@@ -20,9 +20,12 @@
         "@material-ui/icons": "^4.9.1",
         "@material-ui/styles": "^4.10.0",
         "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
-        "react-router-dom": "^5.2.0"
+        "react-particles-js": "^3.3.0",
+        "react-router-dom": "^5.2.0",
+        "tsparticles": "^1.17.12"
     }
 }

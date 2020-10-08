@@ -6,8 +6,8 @@ import {makeStyles} from "@material-ui/styles";
 const usesStyles = makeStyles({
     backgroundImage: {
         flex: 1,
-/*        width: null,
-        height: null,*/
+        /*        width: null,
+                height: null,*/
         /*resizeMode: 'cover'*/
     }
 });

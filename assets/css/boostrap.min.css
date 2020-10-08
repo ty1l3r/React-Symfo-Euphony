@@ -62,7 +62,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    /*color: #212529;*/
     text-align: left;
     background-color: #fff
 }
@@ -227,8 +227,8 @@ button {
 }
 
 button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color
+   /* outline: 1px dotted;*/
+   /* outline: 5px auto -webkit-focus-ring-color*/
 }
 
 button, input, optgroup, select, textarea {
@@ -4653,8 +4653,9 @@ tbody.collapse.show {
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: #e9ecef;
+    background-color: #525252;
     border-radius: .25rem
+
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -4674,7 +4675,7 @@ tbody.collapse.show {
 }
 
 .breadcrumb-item.active {
-    color: #6c757d
+    color: #00bcd4
 }
 
 .pagination {

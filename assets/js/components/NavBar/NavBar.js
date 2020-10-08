@@ -23,8 +23,7 @@ import Divider from "@material-ui/core/Divider";
 import Avatar from "@material-ui/core/Avatar";
 import HomeIcon from '@material-ui/icons/Home';
 import {Link} from "react-router-dom";
-import {HomeRoute, Propos} from "../Routing";
-import KeyboardBackspaceIcon from '@material-ui/icons/KeyboardBackspace';
+import {HomeRoute, Propos} from "../../Routing";
 
 const useStyles = makeStyles(style => ({
     menuIcon: {marginRight: style.spacing(0)},
@@ -55,7 +54,7 @@ const NavBar = () => {
                             edge="start">
                     <MenuIcon/>
                 </IconButton>
-                <KeyboardBackspaceIcon className='arrow'/> &nbsp;Menu
+                {/*<KeyboardBackspaceIcon className='arrow'/> &nbsp;Menu*/}
                 <Link to="/" underline="none" color="inherit" variant="h6">
                 </Link>
                 <Box flexGrow={1}/>

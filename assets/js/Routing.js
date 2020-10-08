@@ -1,8 +1,8 @@
 import React from 'react';
 import {HashRouter, Route, withRouter} from "react-router-dom";
-import Accueil from "./Pages/Accueil/Accueil";
-import Apropos from "./Pages/Apropos/Apropos";
-import NavBar from "./NavBar/NavBar";
+import Accueil from "./components/Pages/Accueil/Accueil";
+import Apropos from "./components/Pages/Apropos/Apropos";
+import NavBar from "./components/NavBar/NavBar";
 
 
 export const HomeRoute = "/";
@@ -23,4 +23,5 @@ class Routing extends React.Component {
         );
     }
 }
+
 export default withRouter(Routing);

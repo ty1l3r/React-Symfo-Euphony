@@ -1,3 +1,74 @@
-.center{
+.center {
     text-align: center;
+}
+
+.paragraphe {
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.buttonOn {
+    background-color: #1d7d20;
+    color: white;
+    width: 100px !important;
+}
+
+.buttonOnCv {
+    background-color: #1d7d20;
+    color: white;
+    width: 140px !important;
+}
+
+.buttonOn :focus {
+}
+
+.bouttonGroup {
+    text-align: center;
+}
+
+.padContent {
+    padding-left: 6%;
+}
+
+.divider {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textEp {
+    font-size: 13px;
+}
+
+.typoInfo {
+    color: chartreuse;
+}
+
+.styleCard {
+    background-color: #4e555b;
+}
+
+.styleCardTitle {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.iconEuphony {
+    font-size: 40px;
+}
+
+.styleCardContent {
+    font-size: 13px;
+}
+
+.animate {
+    transition: transform .35s ease-in-out;
+}
+
+.animate.grow {
+    transform: scale(1.5);
 }
